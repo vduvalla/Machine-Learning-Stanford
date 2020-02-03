@@ -2,18 +2,11 @@
 %
 %  Instructions
 %  ------------
-% 
-%  This file contains code that helps you get started on the logistic
-%  regression exercise. You will need to complete the following functions 
-%  in this exericse:
-%
+
 %     sigmoid.m
 %     costFunction.m
 %     predict.m
 %     costFunctionReg.m
-%
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
 %
 
 %% Initialization
@@ -123,15 +116,14 @@ fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
 
 %% ============== Part 4: Predict and Accuracies ==============
-%  After learning the parameters, you'll like to use it to predict the outcomes
+%  After learning the parameters, we need to predict the outcomes
 %  on unseen data. In this part, you will use the logistic regression model
 %  to predict the probability that a student with score 45 on exam 1 and 
 %  score 85 on exam 2 will be admitted.
 %
-%  Furthermore, you will compute the training and test set accuracies of 
+%  We will compute the training and test set accuracies of 
 %  our model.
 %
-%  Your task is to complete the code in predict.m
 
 %  Predict probability for a student with score 45 on exam 1 
 %  and score 85 on exam 2 

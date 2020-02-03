@@ -6,18 +6,18 @@ function p = predict(theta, X)
 
 m = size(X, 1); % Number of training examples
 
-% You need to return the following variables correctly
+% Return the following variables correctly
 p = zeros(m, 1);
 
-% ====================== YOUR CODE HERE ======================
+% ==================================================================
 % Instructions: Complete the following code to make predictions using
 %               your learned logistic regression parameters. 
 %               You should set p to a vector of 0's and 1's
 %
 
 
-h_x = sigmoid(X*theta);
-p=(h_x>=0.5);
+h = sigmoid(X*theta);
+p=(h>=0.5);
 
 
 
