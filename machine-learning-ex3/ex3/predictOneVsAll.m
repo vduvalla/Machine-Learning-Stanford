@@ -17,7 +17,7 @@ function p = predictOneVsAll(all_theta, X)
   % Add ones to the X data matrix
   X = [ones(m, 1) X];
   
-  % ====================== YOUR CODE HERE ======================
+  % ==================================================================
   % Instructions: Complete the following code to make predictions using
   %               your learned logistic regression parameters (one-vs-all).
   %               You should set p to a vector of predictions (from 1 to
